@@ -9,8 +9,6 @@ struct WeatherScreen: View {
                 AppTheme.backgroundGradient
                     .ignoresSafeArea()
 
-                decorativeBackground
-
                 ScrollView(showsIndicators: false) {
                     VStack(spacing: 14) {
                         WeatherHeaderCard(
@@ -120,27 +118,6 @@ struct WeatherScreen: View {
                 }
             }
         }
-    }
-
-    private var decorativeBackground: some View {
-        ZStack {
-            Circle()
-                .fill(Color.white.opacity(0.15))
-                .frame(width: 240, height: 240)
-                .offset(x: -120, y: -340)
-
-            Circle()
-                .fill(Color.white.opacity(0.10))
-                .frame(width: 200, height: 200)
-                .offset(x: 150, y: -260)
-
-            RoundedRectangle(cornerRadius: 64, style: .continuous)
-                .fill(Color.white.opacity(0.08))
-                .frame(width: 320, height: 220)
-                .rotationEffect(.degrees(22))
-                .offset(x: 120, y: 420)
-        }
-        .allowsHitTesting(false)
     }
 
     private func inlineError(message: String) -> some View {

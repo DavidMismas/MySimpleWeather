@@ -379,7 +379,7 @@
 				DEVELOPMENT_TEAM = AX2Z5LF5SG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Aura;
+				INFOPLIST_KEY_CFBundleDisplayName = Velae;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show local weather.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -416,7 +416,7 @@
 				DEVELOPMENT_TEAM = AX2Z5LF5SG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Aura;
+				INFOPLIST_KEY_CFBundleDisplayName = Velae;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show local weather.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

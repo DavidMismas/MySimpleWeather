@@ -9,10 +9,19 @@ struct WeatherHeaderCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text(locationName)
-                .font(.system(size: 34, weight: .bold, design: .rounded))
-                .foregroundStyle(AppTheme.primaryText)
-                .minimumScaleFactor(0.7)
+            HStack(alignment: .center, spacing: 12) {
+                Text(locationName)
+                    .font(.system(size: 34, weight: .bold, design: .rounded))
+                    .foregroundStyle(AppTheme.primaryText)
+                    .minimumScaleFactor(0.7)
+
+                Spacer(minLength: 8)
+
+                Image(systemName: "house.and.flag.fill")
+                    .font(.system(size: 34, weight: .semibold))
+                    .foregroundStyle(AppTheme.primaryText.opacity(0.9))
+                    .padding(.top, 8)
+            }
 
             HStack(spacing: 8) {
                 Text(units.displayName)
